@@ -1,6 +1,6 @@
-# Pedefeador 📝📊📈
+# Pdf-ador 📝📊📈
 
-**Pedefeador** es una aplicación de escritorio moderna y elegante diseñada para convertir archivos de Microsoft Office (Word, Excel, PowerPoint) a PDF de forma rápida y sencilla. Cuenta con una interfaz oscura interactiva basada en **CustomTkinter** y soporta conversión a través de Microsoft Office COM API o LibreOffice (fallback).
+**Pdf-ador** es una aplicación de escritorio moderna y elegante diseñada para convertir archivos de Microsoft Office (Word, Excel, PowerPoint) a PDF de forma rápida y sencilla. Cuenta con una interfaz oscura interactiva basada en **CustomTkinter** y soporta conversión a través de Microsoft Office COM API o LibreOffice (fallback).
 
 ## ✨ Características
 
@@ -20,7 +20,7 @@
 
 ## 🚀 Uso Rápido (Ejecutable)
 
-Si no quieres instalar Python, puedes ejecutar la aplicación directamente utilizando el archivo ejecutable portable precompilado **`Pedefeador.exe`** que se encuentra en la raíz del repositorio.
+Si no quieres instalar Python, puedes ejecutar la aplicación directamente utilizando el archivo ejecutable portable precompilado **`Pdf-ador.exe`** que se encuentra en la raíz del repositorio.
 
 ## 🛠️ Desarrollo (Instalación y Configuración)
 

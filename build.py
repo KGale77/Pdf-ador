@@ -3,7 +3,7 @@ import sys
 import PyInstaller.__main__
 
 def run_build():
-    print("Iniciando proceso de empaquetado para Pedefeador...")
+    print("Iniciando proceso de empaquetado para Pdf-ador...")
     
     # Target application file
     script_path = "app.py"
@@ -16,7 +16,7 @@ def run_build():
         script_path,
         "--onefile",                    # Single executable file
         "--noconsole",                  # Hide console window (GUI only)
-        "--name=Pedefeador",            # Name of the output file
+        "--name=Pdf-ador",            # Name of the output file
         "--collect-all=customtkinter",  # Package all customtkinter assets
         "--clean",                      # Clean cache before building
     ]
@@ -27,7 +27,7 @@ def run_build():
         print("\n" + "="*50)
         print("¡PROCESO FINALIZADO CON ÉXITO!")
         print("El archivo ejecutable portable ha sido creado en:")
-        print(os.path.abspath("dist/Pedefeador.exe"))
+        print(os.path.abspath("dist/Pdf-ador.exe"))
         print("="*50 + "\n")
     except Exception as e:
         print(f"Ocurrió un error al compilar con PyInstaller: {e}")

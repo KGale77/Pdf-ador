@@ -140,11 +140,11 @@ class FileRow(ctk.CTkFrame):
             # Remove delete button since it's already converted
             self.delete_btn.grid_forget()
 
-class PedefeadorApp(ctk.CTk):
+class PdfadorApp(ctk.CTk):
     def __init__(self):
         super().__init__()
         
-        self.title("Pedefeador - PDF Converter")
+        self.title("Pdf-ador - PDF Converter")
         self.geometry("900x650")
         self.minsize(800, 600)
         self.configure(fg_color=BG_COLOR)
@@ -174,7 +174,7 @@ class PedefeadorApp(ctk.CTk):
         self.header_frame.grid(row=0, column=0, padx=30, pady=(20, 10), sticky="ew")
         
         self.title_label = ctk.CTkLabel(
-            self.header_frame, text="PEDEFEADOR 📄⚡", 
+            self.header_frame, text="PDF-ador 📄⚡", 
             font=("Segoe UI", 26, "bold"), text_color=TEXT_MAIN
         )
         self.title_label.pack(side="left")
@@ -691,5 +691,5 @@ class PedefeadorApp(ctk.CTk):
         self.after(0, self.update_stats)
 
 if __name__ == "__main__":
-    app = PedefeadorApp()
+    app = PdfadorApp()
     app.mainloop()
