@@ -28,7 +28,7 @@ Si deseas modificar el código o correr la aplicación en modo desarrollo:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/KGale77/Pedefedeador.git
+   git clone https://github.com/KGale77/Pdf-ador.git
    cd pedefeador
    ```
 
