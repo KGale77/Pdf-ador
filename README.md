@@ -18,11 +18,17 @@
 - Python 3.10+
 - (Opcional, recomendado) Microsoft Office instalado en el sistema para conversión nativa, o LibreOffice como fallback.
 
-## 🛠️ Instalación y Configuración
+## 🚀 Uso Rápido (Ejecutable)
+
+Si no quieres instalar Python, puedes ejecutar la aplicación directamente utilizando el archivo ejecutable portable precompilado **`Pedefeador.exe`** que se encuentra en la raíz del repositorio.
+
+## 🛠️ Desarrollo (Instalación y Configuración)
+
+Si deseas modificar el código o correr la aplicación en modo desarrollo:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/TU_USUARIO/pedefeador.git
+   git clone https://github.com/KGale77/Pedefedeador.git
    cd pedefeador
    ```
 
@@ -31,20 +37,10 @@
    pip install -r requirements.txt
    ```
 
-3. **Ejecutar la aplicación en modo desarrollo:**
+3. **Ejecutar la aplicación:**
    ```bash
    python app.py
    ```
-
-## 📦 Compilación (Crear el Ejecutable `.exe`)
-
-Para compilar la aplicación en un único archivo ejecutable portable (`Pedefeador.exe`) que no requiere Python para funcionar, ejecuta el script de compilación provisto:
-
-```bash
-python build.py
-```
-
-El archivo ejecutable se generará en la carpeta raíz del proyecto.
 
 ## 📄 Licencia
 
