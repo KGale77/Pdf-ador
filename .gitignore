@@ -14,8 +14,6 @@ venv/
 env/
 .env
 
-# Binary Executables (Recommended to exclude from git, use GitHub Releases instead)
-Pedefeador.exe
 
 # IDE files
 .vscode/
